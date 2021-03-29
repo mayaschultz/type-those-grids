@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -8,12 +8,22 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 h1 {
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;: 1.8rem;
+  font-size: 1.8rem;
   text-align: left;
   padding: 1rem;
 }
@@ -23,21 +33,18 @@ h1 {
   width: 100%;
 }
 
-h2 span{
+  h2 span{
   position: absolute;
   font-style: italic;
-  color: #ffffff;
+  color: #fff;
 }
 
 .main {
-  color: #ffffff;
+  color: #fff;
 }
 
 dt {
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;: 1.5rem;
+  font-size: 1.5rem;
   font-style: italic;
 }
 
