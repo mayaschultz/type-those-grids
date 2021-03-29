@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+h1 {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;: 1.8rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+h2 span{
+  position: absolute;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.main {
+  color: #ffffff;
+}
+
+dt {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;: 1.5rem;
+  font-style: italic;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
