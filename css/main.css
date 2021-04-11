@@ -64,6 +64,10 @@ p {
 }
 
 figure {
+  margin: 0;
+}
+
+figure h2 {
   margin-bottom: 0;
 }
 
